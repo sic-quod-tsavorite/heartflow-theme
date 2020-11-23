@@ -8,6 +8,7 @@
 
 body {
   background-color: #f1f1f1;
+  background-image: url("assets/Chakra_Pattern_2.svg");
 }
 
 a {
@@ -115,7 +116,7 @@ a:hover {
 
 #tekst-field-1 div hr {
   margin: 20px auto;
-  border-top: 4px solid black;
+  border-top: 4px solid #c9006a;
   width: 75vw;
 }
 
@@ -134,6 +135,8 @@ a:hover {
   height: 55vh;
   margin: 20px;
   contain: content;
+  -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
 }
 
 #cards div img {
@@ -286,5 +289,54 @@ a:hover {
 
 #datalov p {
   margin: 0 5px;
+}
+
+#underside_billede {
+  width: 100%;
+}
+
+.underside {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0;
+}
+
+#underside_tekst {
+  width: 900px;
+  background-color: #f1f1f1;
+  padding: 25px;
+  line-height: 1.5;
+}
+
+#underside_tekst a {
+  color: black;
+}
+
+#underside_tekst a:hover {
+  color: #292929;
+  text-decoration: underline;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+  background-color: #f1f1f1;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-ical__link {
+  background-color: #c9006a;
+  color: white;
+  border: none;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button:hover, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-ical__link:hover {
+  background-color: #9b0052;
+}
+
+.tribe-events .tribe-events-c-ical__link:before {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

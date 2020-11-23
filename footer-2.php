@@ -7,8 +7,6 @@
             </a>
             <a href="instagram.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" alt="Logo" width="70" height="70" /></a>
         </div>
-        <h3 style="margin-bottom:10px;">Tilbage til forsiden</h3>
-        <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/assets/ftiltoppen.svg" alt="Logo" width="150" /></a>
         <div id="datalov" style="margin-top:30px;">
             <a style="text-decoration: underline;" href="">Privatslivspolitik</a>
             <p>og</p>
