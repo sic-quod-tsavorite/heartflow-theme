@@ -8,9 +8,9 @@
             <a href="instagram.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" alt="Logo" width="70" height="70" /></a>
         </div>
         <div id="datalov" style="margin-top:30px;">
-            <a style="text-decoration: underline;" href="">Privatslivspolitik</a>
+            <a style="text-decoration: underline;" href="<?php echo esc_url(home_url('/privatlivspolitik')); ?>">Privatslivspolitik</a>
             <p>og</p>
-            <a style="text-decoration: underline;" href="">databehandlingsfortegnelse</a>
+            <a style="text-decoration: underline;" href="<?php echo esc_url(home_url('/databehandlingsfortegnelse')); ?>">databehandlingsfortegnelse</a>
         </div>
         <p style="font-style: italic;">Copyright © 2020 Heart Flow Foreningen. All rights reserved</p>
         <?php wp_nav_menu(array("theme_location" => "footer-menu"))   ?>

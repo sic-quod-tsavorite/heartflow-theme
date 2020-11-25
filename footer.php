@@ -10,9 +10,9 @@
         <h3 style="margin-bottom:10px;">Tilbage til forsiden</h3>
         <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/assets/ftiltoppen.svg" alt="Logo" width="150" /></a>
         <div id="datalov" style="margin-top:30px;">
-            <a style="text-decoration: underline;" href="">Privatslivspolitik</a>
+        <a style="text-decoration: underline;" href="<?php echo esc_url(home_url('/privatlivspolitik')); ?>">Privatslivspolitik</a>
             <p>og</p>
-            <a style="text-decoration: underline;" href="">databehandlingsfortegnelse</a>
+            <a style="text-decoration: underline;" href="<?php echo esc_url(home_url('/databehandlingsfortegnelse')); ?>">databehandlingsfortegnelse</a>
         </div>
         <p style="font-style: italic;">Copyright © 2020 Heart Flow Foreningen. All rights reserved</p>
         <?php wp_nav_menu(array("theme_location" => "footer-menu"))   ?>

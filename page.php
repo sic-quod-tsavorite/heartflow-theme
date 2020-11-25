@@ -57,4 +57,7 @@
     </div>
 </div>
 
+<div id="instagram">
+<?php echo do_shortcode('[instagram-feed num=9 cols=3 width=50]'); ?>
+</div>
 <?php get_footer() ?>
