@@ -27,6 +27,14 @@ a:hover {
   margin: 23.35px auto auto 139px;
 }
 
+#menuToggle {
+  display: none;
+}
+
+#burgermenu {
+  display: none;
+}
+
 #menu-header {
   background-color: white;
   font-size: 25px;
@@ -342,5 +350,149 @@ a:hover {
 
 .tribe-events .tribe-events-c-ical__link:before {
   display: none;
+}
+
+@media screen and (max-width: 1264px) {
+  #logo {
+    height: 80px;
+    margin: 25px auto auto 75px;
+  }
+  #meditation {
+    height: 525px;
+  }
+  #meditation div h2 {
+    margin: 40px auto auto 45px;
+  }
+  #meditation div p {
+    padding-right: 50px;
+  }
+  #sb_instagram {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #logo {
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  #menu-header {
+    font-size: 20px;
+    padding-right: 45px;
+  }
+  #cards div {
+    margin: 10px;
+    height: 525px;
+    width: 500px;
+  }
+  #meditation {
+    height: 525px;
+  }
+  #meditation div h2 {
+    margin: 25px auto auto 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    contain: content;
+  }
+  #logo {
+    margin: 0;
+    height: 70px;
+    width: auto;
+    padding: 25px 0 0 10px;
+  }
+  #menu-header {
+    height: 120px;
+  }
+  #menu-header li {
+    display: none;
+  }
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    z-index: 1;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  #menuToggle a {
+    text-decoration: none;
+    color: #232323;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  #menuToggle a:hover {
+    color: #9b0052;
+  }
+  #menuToggle input {
+    display: block;
+    width: 72px;
+    height: 45px;
+    position: absolute;
+    top: 38px;
+    right: 25px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+  }
+  #burgermenu {
+    display: block;
+    position: absolute;
+    right: 28px;
+    top: 40px;
+    background-color: #c9006a;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+  }
+  #menuToggle input:checked ~ #burgermenu {
+    border: 1px solid #c9006a;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  #menu {
+    position: absolute;
+    width: 100%;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 130px;
+    padding-left: 100px;
+    background: #4f4e5b;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    -webkit-transform: translate(150vw, 0);
+            transform: translate(150vw, 0);
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  }
+  #menu li {
+    padding: 10px 0;
+    font-size: 22px;
+    color: white;
+  }
+  #menu hr {
+    border: none;
+    border-top: 2px solid black;
+    width: 45%;
+  }
+  #menuToggle input:checked ~ ul {
+    -webkit-transform: none;
+            transform: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
