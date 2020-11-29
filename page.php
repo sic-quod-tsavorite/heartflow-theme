@@ -60,4 +60,7 @@
 <div id="instagram">
 <?php echo do_shortcode('[instagram-feed num=9 cols=3 width=50]'); ?>
 </div>
+<div id="instagram-mobile">
+<?php echo do_shortcode('[instagram-feed num=4 cols=3 width=50]'); ?>
+</div>
 <?php get_footer() ?>
