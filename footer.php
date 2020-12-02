@@ -2,12 +2,12 @@
     <div>
         <h2>Du kan også finde os på</h2>
         <div style="margin:10px 0 30px 0;">
-            <a href="facebook.com" style="margin-right: 7px;">
+            <a href="https://www.facebook.com/heartflow.dk/" style="margin-right: 7px;">
                 <img src="<?php echo get_template_directory_uri(); ?> /assets/facebook.svg" alt=" Logo" width="70" height="70" />
             </a>
-            <a href="instagram.com"> <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" alt="Logo" width="70" height="70" /></a>
+            <a href="https://www.instagram.com/heartflowforeningen/"> <img src="<?php echo get_template_directory_uri(); ?>/assets/instagram.svg" alt="Logo" width="70" height="70" /></a>
         </div>
-        <h3 style="margin-bottom:10px;">Tilbage til forsiden</h3>
+        <h3 style="margin-bottom:10px;">Til toppen</h3>
         <a href="#top"><img src="<?php echo get_template_directory_uri(); ?>/assets/ftiltoppen.svg" alt="Logo" width="150" /></a>
         <div id="datalov" style="margin-top:30px;">
         <a style="text-decoration: underline;" href="<?php echo esc_url(home_url('/privatlivspolitik')); ?>">Privatslivspolitik</a>

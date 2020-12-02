@@ -5,7 +5,7 @@
 <div id="tekst-field-1">
     <h2><?php the_field('Overskrift'); ?></h2>
     <?php the_field('beskrivelse'); ?>
-    <div>
+    <div id="hr">
         <hr>
     </div>
     <h2><?php the_field('nyheder'); ?></h2>
@@ -29,6 +29,25 @@
         <h2><?php the_field('overskrift_3'); ?></h2>
         <br>
         <p><?php the_field('beskrivelse_3'); ?></p>
+    </div>
+</div>
+
+<div id="video">
+    <div>
+        <iframe width="100%" height="100%" src="<?php the_field('heartflowvideo'); ?>" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+<h2 id="nyhedsbrev">Nyhedsbrev</h2>
+
+<div id="mailchimp">
+    <div>
+        <?php echo do_shortcode('[mc4wp_form id="414"]'); ?>
+    </div>
+    <div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/nyhedsbrev_ikon.svg" height="100" />
     </div>
 </div>
 
@@ -58,9 +77,9 @@
 </div>
 
 <div id="instagram">
-<?php echo do_shortcode('[instagram-feed num=9 cols=3 width=50]'); ?>
+    <?php echo do_shortcode('[instagram-feed num=9 cols=3 width=50]'); ?>
 </div>
 <div id="instagram-mobile">
-<?php echo do_shortcode('[instagram-feed num=4 cols=3 width=50]'); ?>
+    <?php echo do_shortcode('[instagram-feed num=4 cols=3 width=50]'); ?>
 </div>
 <?php get_footer() ?>
