@@ -2,6 +2,10 @@
 
 <?php echo do_shortcode('[metaslider id="268"]'); ?>
 
+<h1 style="display:none;">Heart Flow Foreningen: Meditation og indre ro</h1>
+
+<meta name="description" content="Savner du indre ro så deltag i en guidet meditation - (hver mandag) modtag healing og alternativ behandling (hver tirsdag)" />
+
 <div id="tekst-field-1">
     <h2><?php the_field('Overskrift'); ?></h2>
     <?php the_field('beskrivelse'); ?>
@@ -13,19 +17,19 @@
 
 <div id="cards">
     <div>
-        <img src="<?php the_field('billede_1'); ?>" alt="">
+        <img src="<?php the_field('billede_1'); ?>" alt="nyhedsbilleder">
         <h2><?php the_field('overskrift_1'); ?></h2>
         <br>
         <p><?php the_field('beskrivelse_1'); ?></p>
     </div>
     <div>
-        <img src="<?php the_field('billede_2'); ?>" alt="">
+        <img src="<?php the_field('billede_2'); ?>" alt="nyhedsbilleder">
         <h2><?php the_field('overskrift_2'); ?></h2>
         <br>
         <p><?php the_field('beskrivelse_2'); ?></p>
     </div>
     <div>
-        <img src="<?php the_field('billede_3'); ?>" alt="">
+        <img src="<?php the_field('billede_3'); ?>" alt="nyhedsbilleder">
         <h2><?php the_field('overskrift_3'); ?></h2>
         <br>
         <p><?php the_field('beskrivelse_3'); ?></p>
@@ -47,7 +51,7 @@
         <?php echo do_shortcode('[mc4wp_form id="414"]'); ?>
     </div>
     <div>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/nyhedsbrev_ikon.svg" height="100" />
+        <img alt="nyhedsbrev ikon" src="<?php echo get_template_directory_uri(); ?>/assets/nyhedsbrev_ikon.svg" height="100" />
     </div>
 </div>
 

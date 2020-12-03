@@ -1,3 +1,9 @@
+/*
+Theme Name: Heart Flow
+Description: Heart flow foreningens tema
+Text Domain: Heart Flow
+
+*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap");
 * {
   margin: 0;
@@ -615,6 +621,9 @@ a:hover {
     -webkit-transform: none;
             transform: none;
   }
+  #tekst-field-1 p {
+    padding: 0 25px;
+  }
   #cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -624,6 +633,13 @@ a:hover {
   #cards div {
     width: 90vw;
     margin-left: 5vw;
+  }
+  #video {
+    margin-top: 100px;
+  }
+  #video div {
+    width: 90vw;
+    height: 400px;
   }
   #mailchimp {
     text-align: center;
@@ -657,6 +673,7 @@ a:hover {
     height: auto;
     padding: 20px 0;
     margin-bottom: 40px;
+    text-align: center;
   }
   #begivenheder #section_b {
     height: auto;
@@ -667,6 +684,7 @@ a:hover {
   }
   #begivenheder #section_b p {
     padding: 0 10vw 0 40px;
+    line-height: 1.5;
   }
   #begivenheder #section_b a {
     margin: 20px 0;
@@ -689,6 +707,10 @@ a:hover {
   #footer1 a,
   #footer1 p {
     font-size: 15px;
+  }
+  #cookie-law-info-bar {
+    position: fixed;
+    top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
