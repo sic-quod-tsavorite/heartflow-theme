@@ -479,7 +479,7 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 1264px) {
+@media screen and (max-width: 1310px) {
   #logo {
     height: 80px;
     margin: 25px auto auto 75px;
@@ -498,7 +498,17 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1210px) {
+  #logo {
+    height: 70px;
+    margin: 25px auto auto 30px;
+  }
+  #menu-header {
+    padding-right: 55px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
   #logo {
     height: 60px;
     padding-top: 10px;
@@ -521,7 +531,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   body {
     contain: content;
   }
@@ -621,6 +631,34 @@ a:hover {
     -webkit-transform: none;
             transform: none;
   }
+  #cards {
+    margin-bottom: 120px;
+  }
+  #cards div {
+    height: 600px;
+  }
+  #meditation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding-bottom: 35px;
+  }
+  #meditation div img {
+    width: 100vw;
+  }
+  #meditation div h2,
+  #meditation div p,
+  #meditation div a {
+    margin-left: 10vw;
+  }
+  #meditation div a {
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   #tekst-field-1 p {
     padding: 0 25px;
   }
@@ -646,24 +684,6 @@ a:hover {
   }
   #mailchimp img {
     display: none;
-  }
-  #meditation {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 850px;
-  }
-  #meditation div img {
-    width: 100vw;
-  }
-  #meditation div h2,
-  #meditation div p,
-  #meditation div a {
-    margin-left: 10vw;
-  }
-  #meditation div a {
-    padding: 15px 10px;
   }
   #begivenheder {
     -webkit-box-orient: vertical;
